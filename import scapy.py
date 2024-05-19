@@ -24,5 +24,5 @@ def print_result(result_list):
         print (clients ["ip"] + "\t\t" + clients ["mac"])
         
 options = get_arguments()
-scan_result = scan("options.target")
+scan_result = scan(options.target)
 print_result(scan_result)
